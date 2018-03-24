@@ -1,0 +1,17 @@
+{
+  "excludeScenes": [],
+  "includeAnySDK": false,
+  "includeSdk": [
+    "anysdk"
+  ],
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "com.beimi",
+  "startScene": "1db3d56a-e495-44b9-a343-d13e8a09ce72",
+  "title": "beimi",
+  "webOrientation": "landscape"
+}
