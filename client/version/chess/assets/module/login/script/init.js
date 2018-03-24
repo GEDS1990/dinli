@@ -56,7 +56,7 @@ cc.Class({
             cc.beimi = {};
             cc.beimi.routes = {} ;
             cc.beimi.http = require("HTTP");
-            cc.beimi.http.baseURL = "http://127.0.0.1:8888";
+            cc.beimi.http.baseURL = "http://127.0.0.1";
             cc.beimi.seckey = "beimi";
             cc.beimi.gamestatus = "none" ;
 

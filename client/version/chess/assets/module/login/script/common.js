@@ -11,12 +11,12 @@ cc.Class({
         this.loadding();
         if(this.io.get("userinfo") == null){
             //发送游客注册请求
-            var xhr = cc.beimi.http.httpGet(":8888/api/guest", this.sucess , this.error , this);
+            var xhr = cc.beimi.http.httpGet("/api/guest", this.sucess , this.error , this);
         }else{
             //通过ID获取 玩家信息
             var data = JSON.parse(this.io.get("userinfo")) ;
             if(data.token != null){     //获取用户登录信息
-                var xhr = cc.beimi.http.httpGet(":8888/api/guest?token="+data.token.id, this.sucess , this.error , this);
+                var xhr = cc.beimi.http.httpGet("/api/guest?token="+data.token.id, this.sucess , this.error , this);
             }
         }
 	},
