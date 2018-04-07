@@ -59,7 +59,7 @@ public class ApiRequestMatchingFilter implements Filter {
 
 	@Override
 	public void destroy() {
-		
+
 	}
 
 	@Override
